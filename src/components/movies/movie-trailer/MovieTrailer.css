@@ -1,0 +1,44 @@
+.movie-trailer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.movie-trailer h1 {
+  margin-top: 10px;
+  color: white;
+  align-self: flex-start;
+}
+
+.movie-details {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.movie-details label {
+  font-weight: 700;
+  color: cyan;
+}
+
+.list-group-item {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+.list-group-item:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item:nth-of-type(1) svg {
+  color: yellow;
+}
+
+.list-group-item:nth-of-type(1) .rating {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
